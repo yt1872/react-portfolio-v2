@@ -1,0 +1,23 @@
+@import "../index.scss";
+
+.hero-container {
+  background-color: $primary-purple;
+  height: 100vh;
+}
+
+.hero-left {
+  width: 60%;
+}
+
+.hero-name {
+  color: $lime-green;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.hero-intro {
+  margin-top: 10px;
+  color: $secondary-purple;
+  font-size: 30px;
+  width: 50%;
+}
