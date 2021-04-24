@@ -2,10 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import Hero from './components/hero.js';
+import Header from './components/header.js'
 // import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Header />
     <Hero />
   </React.StrictMode>,
   document.getElementById('root')
