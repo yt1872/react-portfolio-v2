@@ -1,7 +1,7 @@
 @import "../App.scss";
 
 .hero-container {
-  background-color: $primary-purple;
+  background-color: $tertiary-blue;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -10,19 +10,19 @@
 }
 
 .hero-left {
-  width: 50%;
+  // width: 50%;
   padding: 30px;
 }
 
 .hero-name {
-  color: $lime-green;
+  color: black;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 40px;
 }
 
 .hero-intro {
   margin-top: 25px;
-  color: $secondary-purple;
-  font-size: 30px;
+  color: $grey;
+  font-size: 22px;
   width: 75%;
 }

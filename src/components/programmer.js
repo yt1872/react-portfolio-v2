@@ -7,8 +7,8 @@ class Programmer extends React.Component {
     return (
       <div className="">
         <svg
-          width="511"
-          height="511"
+          width=""
+          height=""
           viewBox="0 0 511 511"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"

@@ -16,7 +16,10 @@ function Navbar() {
         <div className="navbar">
           <div className="navbar-container container">
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-              YUICHIRO TOYAMA
+              <div className="nav-logo">
+                <span>YUICHIRO</span>
+                <span>TOYAMA</span>
+              </div>
             </Link>
             <div className="menu-icon" onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
