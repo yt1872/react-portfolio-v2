@@ -1,0 +1,28 @@
+@import "../App.scss";
+
+.about-container {
+  display: flex;
+}
+
+.about-card {
+  width: 50%;
+  padding: 50px;
+}
+
+.about-subheader {
+  margin-bottom: 30px;
+}
+
+.skills-sublist-card {
+  margin-bottom: 30px;
+}
+
+.skills-sublist {
+  display: flex;
+  ul {
+    list-style-type: none;
+    &:nth-child(1) {
+      width: 150px;
+    }
+  }
+}

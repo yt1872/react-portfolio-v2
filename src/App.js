@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar.js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.scss";
 import Hero from "./components/Hero";
+import About from "./components/About";
 function App() {
   return (
     <>
@@ -10,8 +11,8 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/" exact component={Hero} />
-          {/* <Route path='/About' component={Services} />
-                    <Route path='/Projects' component={Products} />
+          <Route path="/About" component={About} />
+          {/* <Route path='/Projects' component={Products} />
                     <Route path='/Contact' component={SignUp} /> */}
         </Switch>
       </Router>
