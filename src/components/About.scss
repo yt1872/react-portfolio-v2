@@ -2,10 +2,11 @@
 
 .about-container {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .about-card {
-  width: 50%;
+  width: 35%;
   padding: 50px;
 }
 
@@ -15,14 +16,21 @@
 
 .skills-sublist-card {
   margin-bottom: 30px;
+  h3 {
+    padding-bottom: 10px;
+  }
 }
 
 .skills-sublist {
+  font-size: 16px;
   display: flex;
   ul {
     list-style-type: none;
     &:nth-child(1) {
       width: 150px;
+    }
+    li {
+      padding-bottom: 10px;
     }
   }
 }

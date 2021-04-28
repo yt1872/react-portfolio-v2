@@ -8,10 +8,10 @@ function Hero() {
   return (
     <div className="hero-container">
       <div className="hero-left">
-        <div className="hero-name">Hi, I am Yuichiro Toyama.</div>
+        <div className="hero-name">Hi &#x1f44b;, I am Yuichiro Toyama.</div>
         <div className="hero-name">
-          A <i className="text-highlight">Fullstack</i>
-          <i className="text-highlight">Developer</i> based in Tokyo.
+          A <i className="text-highlight">Fullstack Developer</i>
+          &nbsp;based in Tokyo.
         </div>
         <div className="hero-intro">
           I design and build <i className="text-highlight">interactive</i> and{" "}

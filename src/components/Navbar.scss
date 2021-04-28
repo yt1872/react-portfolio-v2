@@ -36,6 +36,8 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
+  letter-spacing: 1px;
+  text-align: center;
 }
 
 .navbar-icon {
@@ -67,6 +69,7 @@
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
+  letter-spacing: 1px;
 }
 
 .fa-bars {
@@ -101,7 +104,7 @@
   }
 
   .nav-menu.active {
-    background: #1c2237;
+    background: $tertiary-blue;
     left: 0;
     opacity: 1;
     transition: all 0.6s ease;

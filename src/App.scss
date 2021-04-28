@@ -9,18 +9,38 @@ $grey: #6f6f6f;
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+  background-color: $tertiary-blue;
 }
 
 .text-highlight {
-  background-color: $secondary-blue;
+  // background-color: $secondary-blue;
   color: $primary-blue;
   display: inline-block;
   font-style: normal;
-  padding: 2px 15px 4px;
+  // padding: 2px 8px 4px;
   border-radius: 5px;
 }
 
 h2 {
   font-weight: 800;
   font-size: 36px;
+}
+
+mark {
+  color: $primary-blue;
+  font-weight: 800;
+}
+
+.subheader-underline {
+  border-bottom: 5px $primary-blue solid;
+  height: 10px;
+  width: 30%;
+}
+
+p {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
 }

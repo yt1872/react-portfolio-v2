@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.scss";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Footer from "./components/Footer";
+
 function App() {
   return (
     <>
@@ -15,6 +17,7 @@ function App() {
           {/* <Route path='/Projects' component={Products} />
                     <Route path='/Contact' component={SignUp} /> */}
         </Switch>
+        <Footer />
       </Router>
     </>
   );
