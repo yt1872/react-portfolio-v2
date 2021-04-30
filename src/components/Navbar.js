@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import "./Navbar.scss";
+import { Link } from "react-scroll";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -26,24 +26,34 @@ function Navbar() {
             </div>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-items">
-                <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                <Link
+                  to="home"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                  spy={true}
+                  smooth={true}
+                >
                   HOME
                 </Link>
               </li>
               <li className="nav-items">
                 <Link
-                  to="/About"
+                  to="about"
                   className="nav-links"
                   onClick={closeMobileMenu}
+                  spy={true}
+                  smooth={true}
                 >
                   ABOUT
                 </Link>
               </li>
               <li className="nav-items">
                 <Link
-                  to="/Projects"
+                  to="projects"
                   className="nav-links"
                   onClick={closeMobileMenu}
+                  spy={true}
+                  smooth={true}
                 >
                   PROJECTS
                 </Link>
@@ -53,6 +63,8 @@ function Navbar() {
                   to="/Contact"
                   className="nav-links"
                   onClick={closeMobileMenu}
+                  spy={true}
+                  smooth={true}
                 >
                   CONTACT
                 </Link>

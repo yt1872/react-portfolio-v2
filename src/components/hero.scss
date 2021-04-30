@@ -9,8 +9,9 @@
 }
 
 .hero-left {
-  // width: 50%;
+  width: 50%;
   padding: 30px;
+  opacity: 0;
 }
 
 .hero-name {
@@ -25,4 +26,8 @@
   color: $grey;
   font-size: 22px;
   width: 75%;
+}
+
+.svgProgrammer {
+  opacity: 0;
 }

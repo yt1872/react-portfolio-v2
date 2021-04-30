@@ -1,15 +1,16 @@
 import React from "react";
 import "./About.scss";
+import { FaArrowRight } from "react-icons/fa";
 
 function About() {
   return (
-    <div className="about-container">
-      <div className="about-card">
-        <div className="about-subheader">
-          <h2>A little bit about me</h2>
-          <div className="subheader-underline"></div>
+    <div className="about-container" id="about">
+      <div className="about-section">
+        <div className="about-title">
+          <h2>A LITTLE BIT ABOUT ME</h2>
+          {/* <div className="subheader-underline"></div> */}
         </div>
-        <div>
+        <div className="about-content">
           <p>
             A <mark>bilingual</mark> web developer with an aerospace engineering
             background competent in <mark>front end</mark> and{" "}
@@ -28,52 +29,54 @@ function About() {
           </p>
         </div>
       </div>
-      <div className="about-card">
-        <div className="about-subheader">
-          <h2>Some of my skills</h2>
-          <div className="subheader-underline"></div>
+      <div className="about-section">
+        <div className="about-title">
+          <h2>SOME OF MY SKILLS</h2>
+          {/* <div className="subheader-underline"></div> */}
         </div>
-        <div className="skills-sublist-card">
-          <h3>Frontend</h3>
-          <div className="skills-sublist">
-            <ul>
-              <li>&gt; HTML</li>
-              <li>&gt; CSS</li>
-              <li>&gt; JavaScript</li>
-            </ul>
-            <ul>
-              <li>&gt; React</li>
-              <li>&gt; GSAP</li>
-              <li>&gt; jQuery</li>
-            </ul>
+        <div className="about-content">
+          <div className="about-skills">
+            <div className="about-skills-card">
+              <h3>FRONTEND</h3>
+              <div className="skills-sublist">
+                <ul>
+                  <li>&gt; HTML</li>
+                  <li>&gt; CSS</li>
+                  <li>&gt; JavaScript</li>
+                  <li>&gt; React</li>
+                  <li>&gt; GSAP</li>
+                  <li>&gt; jQuery</li>
+                </ul>
+              </div>
+            </div>
+            <div className="about-skills-card">
+              <h3>BACKEND</h3>
+              <div className="skills-sublist">
+                <ul>
+                  <li>&gt; C#</li>
+                  <li>&gt; .NET Core</li>
+                  <li>&gt; Ruby</li>
+                  <li>&gt; Rails</li>
+                </ul>
+              </div>
+            </div>
+            <div className="skills-sublist-card">
+              <h3>OTHER</h3>
+              <div className="skills-sublist">
+                <ul>
+                  <li>&gt; Design</li>
+                  <li>&gt; UI/UX</li>
+                  <li>&gt; Git</li>
+                  <li>&gt; SQL</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="skills-sublist-card">
-          <h3>Backend</h3>
-          <div className="skills-sublist">
-            <ul>
-              <li>&gt; C#</li>
-              <li>&gt; .NET Core</li>
-            </ul>
-            <ul>
-              <li>&gt; Ruby</li>
-              <li>&gt; Rails</li>
-            </ul>
-          </div>
-        </div>
-        <div className="skills-sublist-card">
-          <h3>Other</h3>
-          <div className="skills-sublist">
-            <ul>
-              <li>&gt; Design</li>
-              <li>&gt; UI/UX</li>
-            </ul>
-            <ul>
-              <li>&gt; Git</li>
-              <li>&gt; SQL</li>
-            </ul>
-          </div>
-        </div>
+      </div>
+      <div className="about-resume">
+        <a>My Resume</a>
+        <FaArrowRight />
       </div>
     </div>
   );
