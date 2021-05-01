@@ -60,7 +60,7 @@ function About() {
                 </ul>
               </div>
             </div>
-            <div className="skills-sublist-card">
+            <div className="about-skills-card">
               <h3>OTHER</h3>
               <div className="skills-sublist">
                 <ul>

@@ -1,0 +1,21 @@
+@import "../App.scss";
+
+.projects-container {
+  display: flex;
+  padding: 100px 170px 0px;
+  justify-content: center;
+}
+
+.projects-title {
+  width: 200px;
+  margin-right: 70px;
+}
+
+.projects-card {
+  width: 100%;
+  max-width: 650px;
+  margin-bottom: 50px;
+}
+
+.projects-info {
+}
