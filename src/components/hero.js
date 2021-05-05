@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import "./Hero.scss";
-import "./Programmer.js";
-import Programmer from "./Programmer.js";
+import "./Programmer.scss";
+import Programmer from "./Programmer";
 import { Link } from "react-router-dom";
 import { TweenMax, Power3 } from "gsap";
 

@@ -6,9 +6,8 @@
   justify-content: center;
 }
 
-.projects-title {
-  width: 200px;
-  margin-right: 70px;
+.projects-card-title {
+  margin-bottom: 10px;
 }
 
 .projects-card {
@@ -18,4 +17,16 @@
 }
 
 .projects-info {
+  margin-bottom: 10px;
+}
+
+.projects-stack {
+  display: flex;
+}
+
+.stack-item {
+  padding: 5px 15px;
+  border: 2px solid $primary-blue;
+  margin-right: 10px;
+  border-radius: 5px;
 }
