@@ -77,7 +77,7 @@ function About() {
       </div>
       <div className="about-resume">
         <a href={MyPDF} download="Resume.pdf" className="resume-button">
-          My resume
+          Download resume
         </a>
       </div>
     </div>
