@@ -1,4 +1,5 @@
 import React from "react";
+import MyPDF from "../assets/resume.pdf";
 import "./About.scss";
 import { FaArrowRight } from "react-icons/fa";
 
@@ -75,8 +76,9 @@ function About() {
         </div>
       </div>
       <div className="about-resume">
-        <a>My Resume</a>
-        <FaArrowRight />
+        <a href={MyPDF} download="Resume.pdf" className="resume-button">
+          My resume
+        </a>
       </div>
     </div>
   );

@@ -18,3 +18,15 @@ export const projectObjTwo = {
     "images/airpaws4.png",
   ],
 };
+
+export const projectObjThree = {
+  projectName: "This portfolio site",
+  projectDesc: "My first portfolio site.",
+  stack: ["React", "GSAP", "Sass"],
+  images: [
+    "images/airpaws1.png",
+    "images/airpaws2.png",
+    "images/airpaws3.png",
+    "images/airpaws4.png",
+  ],
+};
