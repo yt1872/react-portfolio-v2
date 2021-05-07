@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "./Carousel";
 
-function ProjectsSection({ projectName, projectDesc, stack, images }) {
+function ProjectsSection({ projectName, projectDesc, stack, image }) {
   let itemsToRender;
   if (stack) {
     itemsToRender = stack.map((item) => {
@@ -15,7 +15,10 @@ function ProjectsSection({ projectName, projectDesc, stack, images }) {
 
   return (
     <div className="projects-card">
-      <Carousel {...{ images }} />
+      {/* <Carousel {...{ images }} /> */}
+      <div className="project-image-wrapper">
+        <img src={image} className="project-image"></img>
+      </div>
       <div className="projects-card-title">
         <h3>{projectName}</h3>
       </div>

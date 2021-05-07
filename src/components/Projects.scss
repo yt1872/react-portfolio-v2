@@ -24,9 +24,28 @@
   display: flex;
 }
 
+.project-image-wrapper {
+  text-align: center;
+}
+.project-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
 .stack-item {
   padding: 5px 15px;
   border: 2px solid $primary-blue;
   margin-right: 10px;
   border-radius: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+  .projects-container {
+    display: block;
+    padding: 100px 100px 0px;
+  }
+  .projects-card {
+    width: 100%;
+  }
 }

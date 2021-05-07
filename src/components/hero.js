@@ -35,6 +35,9 @@ function Hero() {
           I design and build <i className="text-highlight">interactive</i> and{" "}
           <i className="text-highlight">responsive</i> websites.
         </div>
+        <div className="hero-CTA">
+          <button className="primary-button">Get in touch</button>
+        </div>
       </div>
       <div
         ref={(el) => {

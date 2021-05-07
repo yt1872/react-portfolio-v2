@@ -14,19 +14,26 @@ function About() {
         <div className="about-content">
           <p>
             A <mark>bilingual</mark> web developer with an aerospace engineering
-            background competent in <mark>front end</mark> and{" "}
-            <mark>web design</mark>. <br />
+            degree now working as a full stack developer for a japanese system
+            integration company. Born and raised in the <mark>U.K.</mark> now
+            living in <mark>Tokyo</mark>.
             <br />
-            Born and raised in the <mark>U.K.</mark> now living in{" "}
-            <mark>Tokyo</mark> working as a full stack developer for a japanese
-            system integration company. <br />
             <br />
-            Studied graphic design at school, with a keen eye for aesthetics and
-            fine detail. Looking for opportunities to focus on front end and
-            learn more about <mark>UI/UX</mark>. <br />
+            During my degree I studied subjects ranging from aero propulsion to
+            project management. This allowed me to attain{" "}
+            <mark>technical knowledge</mark> and <mark>problem solving</mark>{" "}
+            skills as well as be educated on the life cycle of an engineering
+            project and the importance of management.
             <br />
-            In my spare time I like to swing a golf club and make the odd
-            birdie.
+            <br />
+            After graduation, I attended a coding bootcamp to gain industry
+            ready skills to start a career in web development. I studied{" "}
+            <mark>graphic design</mark> at school and always had a keen eye for
+            aesthetics and fine detail. Now looking for opportunities to focus
+            on front end and learn more about<mark> UI/UX</mark>. <br />
+            <br />
+            In my spare time I like to swing a golf club, walk 4 hours in a
+            field and make the odd birdie.
           </p>
         </div>
       </div>
@@ -76,7 +83,7 @@ function About() {
         </div>
       </div>
       <div className="about-resume">
-        <a href={MyPDF} download="Resume.pdf" className="resume-button">
+        <a href={MyPDF} download="Resume.pdf" className="primary-button">
           Download resume
         </a>
       </div>
