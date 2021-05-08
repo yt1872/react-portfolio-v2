@@ -3,11 +3,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import "./Navbar.scss";
 import { Link } from "react-scroll";
-import Switch from "@material-ui/core/Switch";
-import { withStyles } from "@material-ui/core/styles";
-import { purple } from "@material-ui/core/colors";
-import FormControlLabel from "@material-ui/core/FormControlLabel";
-import FormGroup from "@material-ui/core/FormGroup";
+import { Switch } from "react-router";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -24,19 +20,19 @@ function Navbar() {
     setState({ ...state, [event.target.name]: event.target.checked });
   };
 
-  const PurpleSwitch = withStyles({
-    switchBase: {
-      color: purple[300],
-      "&$checked": {
-        color: purple[500],
-      },
-      "&$checked + $track": {
-        backgroundColor: purple[500],
-      },
-    },
-    checked: {},
-    track: {},
-  })(Switch);
+  // const PurpleSwitch = withStyles({
+  //   switchBase: {
+  //     color: purple[300],
+  //     "&$checked": {
+  //       color: purple[500],
+  //     },
+  //     "&$checked + $track": {
+  //       backgroundColor: purple[500],
+  //     },
+  //   },
+  //   checked: {},
+  //   track: {},
+  // })(Switch);
 
   return (
     <>
@@ -99,17 +95,8 @@ function Navbar() {
               </li>
             </ul>
             <div>
-              <FormGroup>
-                <FormControlLabel
-                  control={
-                    <PurpleSwitch
-                      checked={state.checkedA}
-                      onChange={handleChange}
-                      name="checkedA"
-                    />
-                  }
-                />
-              </FormGroup>
+              <input type="checkbox" id="switch" />
+              <label for="switch">Toggle</label>
             </div>
           </div>
         </div>

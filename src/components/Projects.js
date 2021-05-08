@@ -1,6 +1,11 @@
 import React from "react";
 import ProjectsSection from "./ProjectsSection";
-import { projectObjOne, projectObjTwo, projectObjThree } from "./Data";
+import {
+  projectObjOne,
+  projectObjTwo,
+  projectObjThree,
+  projectObjFour,
+} from "./Data";
 import "./Projects.scss";
 
 function Projects() {
@@ -13,6 +18,7 @@ function Projects() {
         <ProjectsSection {...projectObjOne} />
         <ProjectsSection {...projectObjTwo} />
         <ProjectsSection {...projectObjThree} />
+        <ProjectsSection {...projectObjFour} />
       </div>
     </div>
   );

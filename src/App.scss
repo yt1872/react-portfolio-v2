@@ -32,6 +32,7 @@ h2 {
 h3 {
   font-size: 1rem;
   font-weight: 800;
+  letter-spacing: 1px;
 }
 
 mark {
@@ -46,7 +47,7 @@ mark {
 }
 
 p {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 a {
@@ -58,12 +59,13 @@ a {
   color: #fff;
   background-color: $primary-blue;
   padding: 15px 30px;
-  font-size: 16px;
+  font-size: 1rem;
   border-radius: 5px;
   text-decoration: none;
+  letter-spacing: 1px;
   &:hover {
     background-color: $secondary-blue;
     color: $primary-blue;
-    border: 2px solid $primary-blue;
+    // border: 2px solid $primary-blue;
   }
 }

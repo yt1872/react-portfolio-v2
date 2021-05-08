@@ -20,3 +20,11 @@ export const projectObjThree = {
   stack: ["React", "GSAP", "Sass"],
   image: "images/airpaws1.png",
 };
+
+export const projectObjFour = {
+  projectName: "Cross platform cloud based application",
+  projectDesc: `Due to being a private project, I cannot disclose the specific information.
+  A cross platform system for a Japanese company involved in the automotive industry. I was involved in the full stack for a web application built on the .NET Core framework. `,
+  stack: ["C#", ".NET Core", "Xamarin", "jQuery", "Typescript", "Stylus"],
+  image: "images/Private.png",
+};

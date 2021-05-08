@@ -2,8 +2,25 @@ import React from "react";
 import MyPDF from "../assets/resume.pdf";
 import "./About.scss";
 import { FaArrowRight } from "react-icons/fa";
+import { TweenMax, Power3 } from "gsap";
 
 function About() {
+  // let imageItem = useRef(null);
+  // let textItem = useRef(null);
+
+  // useEffect(() => {
+  //   TweenMax.to(textItem, 0.8, {
+  //     opacity: 1,
+  //     y: -20,
+  //     ease: Power3.easeOut,
+  //   });
+  //   TweenMax.to(imageItem, 0.8, {
+  //     opacity: 1,
+  //     y: -20,
+  //     ease: Power3.easeOut,
+  //     delay: 0.2,
+  //   });
+  // });
   return (
     <div className="about-container" id="about">
       <div className="about-section">
@@ -72,10 +89,10 @@ function About() {
               <h3>OTHER</h3>
               <div className="skills-sublist">
                 <ul>
-                  <li>&gt; Design</li>
-                  <li>&gt; UI/UX</li>
                   <li>&gt; Git</li>
                   <li>&gt; SQL</li>
+                  <li>&gt; Design</li>
+                  <li>&gt; UI/UX</li>
                 </ul>
               </div>
             </div>
@@ -84,7 +101,7 @@ function About() {
       </div>
       <div className="about-resume">
         <a href={MyPDF} download="Resume.pdf" className="primary-button">
-          Download resume
+          DOWNLOAD RESUME
         </a>
       </div>
     </div>
