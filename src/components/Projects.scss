@@ -2,8 +2,9 @@
 
 .projects-container {
   display: flex;
-  padding: 100px 170px 0px;
+  padding: 0px 32px;
   justify-content: center;
+  flex-direction: column;
 }
 
 .projects-card-title {
@@ -40,12 +41,21 @@
   border-radius: 5px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 768px) {
   .projects-container {
-    display: block;
-    padding: 100px 100px 0px;
+    flex-direction: column;
+    // height: 100vh;
+    padding: 0 120px;
   }
   .projects-card {
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .projects-container {
+    flex-direction: row;
+    // height: 100vh;
+    // padding: 0 120px;
   }
 }

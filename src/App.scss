@@ -13,6 +13,10 @@ $grey: #6f6f6f;
   box-sizing: border-box;
 }
 
+#root {
+  padding: 0 24px;
+}
+
 .text-highlight {
   // background-color: $secondary-blue;
   color: $primary-blue;
@@ -20,6 +24,7 @@ $grey: #6f6f6f;
   font-style: normal;
   // padding: 2px 8px 4px;
   border-radius: 5px;
+  font-weight: 600;
 }
 
 h2 {
@@ -69,3 +74,9 @@ a {
     // border: 2px solid $primary-blue;
   }
 }
+
+// @media screen and (min-width: 768px) {
+//   #root {
+//     padding: 0px 48px;
+//   }
+// }

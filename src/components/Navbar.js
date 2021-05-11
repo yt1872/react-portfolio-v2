@@ -41,8 +41,8 @@ function Navbar() {
           <div className="navbar-container container">
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
               <div className="nav-logo">
-                <span>YUICHIRO</span>
-                <span>TOYAMA</span>
+                <span>YST</span>
+                {/* <span>TOYAMA</span> */}
               </div>
             </Link>
             <div className="menu-icon" onClick={handleClick}>
@@ -94,10 +94,10 @@ function Navbar() {
                 </Link>
               </li>
             </ul>
-            <div>
+            {/* <div>
               <input type="checkbox" id="switch" />
               <label for="switch">Toggle</label>
-            </div>
+            </div> */}
           </div>
         </div>
       </IconContext.Provider>

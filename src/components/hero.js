@@ -27,7 +27,7 @@ function Hero() {
     <div className="hero-container" id="home">
       <div className="hero-left" ref={(el) => (textItem = el)}>
         <div className="hero-name">Hi &#x1f44b;,</div>
-        <div className="hero-name">I am Yuichiro Toyama.</div>
+        <div className="hero-name">I'm Yuichiro Toyama.</div>
         <div className="hero-name">
           A <i className="text-highlight">Fullstack Developer&nbsp;</i>
           based in Tokyo.
